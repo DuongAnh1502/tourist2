@@ -1,0 +1,96 @@
+@media screen and (max-width : 1235px){
+    .cards__btn{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width : 1023px) {
+    .appear-in-mb{
+        display: block;
+    }
+    .grid--mb{
+        width: 100%;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav__logo{
+        width: 170px;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .ticket-menu{
+        display: block;
+    }
+    .tour-ticket{
+        top: 440px;
+    }
+    .ticket-list{
+        width: 175px;
+        padding: 6px 15px;
+    }
+    .slider__body,
+    .slider__body-text{
+        display: none;
+    }
+    .btn__slider-tablet-mb{
+        display: block;
+    }
+}
+@media screen and (max-width:768px) {
+    .slider{
+        padding-top: 110%;
+    }
+    .tour-ticket{
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .ticket-list{
+        width: 100%;
+        padding: 8px;
+    }
+    .ticket__img{
+        width: 100%;
+    }
+    .ticket-menu{
+        width: 100%;
+        padding: 8px 55px;
+    }
+    .walk-tour__title{
+        padding: 30px 20px;
+        line-height: 3rem;
+    }
+    .walk-tour-img{
+        padding: 10px 20px;
+    }
+    /* TAG MOBILE */
+}
+/* ====== MOBILE ======= */
+@media (max-width: 740px) {
+    .blog__tags{
+        flex-direction: column;
+    }
+    .tags__info,
+    .tags__img{
+        width: 100%;
+    }
+    .order-1-mb{
+        order: 1;
+    }
+    .footer__logo-contact{
+        padding:0;
+    }
+    .footer__table-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__table-footer p ~ p{ 
+        margin-top: 8px;
+    }
+}
+@media screen and (min-width:741px) and (max-width:1023px) {
+    .modal__menu-mb{
+        width: 50vw;
+    }
+}   

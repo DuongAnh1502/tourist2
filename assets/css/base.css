@@ -1,0 +1,98 @@
+:root{
+    --text-color:#333;
+    --primary-color:#f3a46b;
+    --header-height:78px;
+    --white-color:#fff;
+    --black-color:#000;
+    --img-card-title-height:270.6px
+}
+/* ========================================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    letter-spacing: 1px;
+    color:var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:var(--text-color);
+    -webkit-tap-highlight-color:transparent;
+}
+img{
+    max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: var(--header-height);
+}
+/* ============= RE USE CSs ============== */
+.pull-right{
+    float: right;
+}
+.order-1{
+    order: 1;
+}
+/* ============= BUTTON =================== */
+.btn{
+    display: block;
+    border-radius: 5rem;
+    position: relative;
+    text-align: center;
+    transition: all .4s  ease;
+}
+.btn--primary{
+    background-color: var(--primary-color);
+}
+.btn--hover:hover.btn{
+    transform: translateY(-3px);
+}
+/* BUTTON COLOR */
+.btn--gradient-1{
+    background-image: linear-gradient(to right, rgb(255, 210, 5) 0%, rgb(255, 155, 5) 100%);
+}
+.btn--gradient-2{
+    background-image: linear-gradient(to right, rgb(247, 101, 112) 0%, rgb(247, 141, 101) 100%);
+}
+.btn--gradient-3{
+    background-image:linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+.btn--gradient-4{
+    background-image: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+.btn--color-1{
+    background-color: #1bbc9b;
+}
+.btn--color-2{
+    background-color: #ff6868;
+}
+.btn--color-3{
+    background-color: brown;
+}
+.btn--color-4{
+    background-color: #14b9d5;
+}
+.btn--color-5{
+    background-color: #f3a46b;
+}
+.btn--color-6{
+    background-color: #c755da;
+}
